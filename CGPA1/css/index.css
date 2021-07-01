@@ -1,0 +1,232 @@
+body{
+	background-image:url('/CGPA1/images/cgpa.jpeg');
+	background-size:cover;
+}
+::placeholder {
+    color:gray;
+    font-family: Footlight MT Light;/*Andalus;*/
+  opacity: 0.8; /* Firefox */
+}
+focus:input[contenteditable] {
+  background-color:lightgreen;
+}
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+ input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+	 button:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+	input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+fieldset{
+border:none;
+}
+#tp{
+position:absolute;
+top:200px;
+left:545px;
+}
+#reg{
+height:50px;
+width:227px;
+background-color:rgba(3,3,3,0.5);
+border:none;
+color:white;
+}
+#log{
+height:50px;
+width:227px;
+background-color:rgba(3,3,3,0.4);
+border:none;
+color:rgba(255,255,255,0.8);
+}
+
+#fr{
+	position:absolute;
+	top:250px;
+	left:545px;
+	background-color:rgba(3,3,3,0.5);
+	padding-bottom:40px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:40px;
+}
+#fr1{
+	position:absolute;
+	top:250px;
+	left:545px;
+	max-width:400px;
+	background-color:rgba(3,3,3,0.5);
+	padding-bottom:40px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:40px;
+  }
+   #fr1 fieldset:not(:first-of-type) {
+    display: none;
+}
+#uid,#pwd,#name,#dob,#mail,#ph,#roll, #batch ,#Dept,#quata,#npwd,#cpwd{
+		height:50px;
+width:300px;
+margin-top:30px;
+padding:10px;
+}
+#lgd{
+    display:inline-block;
+    margin-top: 20px;
+}
+#lg{
+	position:relative;
+	left:4.6px;
+	 background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width:150px;
+  margin-right: 72px;
+}
+#lg1{
+	position:relative;
+	right:0px;
+	 background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width:148px;
+}
+.lg:hover{
+	opacity:1;
+}
+.tab {
+  display: none;
+  max-width:375px;
+}
+/*.next-form{
+	position:relative;
+	margin-top:20px;
+	background-color: dodgerblue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width:100px;
+}*/
+#nextBtn{
+	float:right;
+	position:relative;
+	margin-top:20px;
+	background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width:100px;
+}
+#prevBtn {
+  /*float:right;*/
+  background-color:rgb(182, 179, 179);
+  margin-top:20px;
+  margin-right:10px;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width:100px;
+}
+#subBtn{
+	float:right;
+	position:relative;
+	margin-top:20px;
+	background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width:100px;
+  /*visibility:hidden;*/
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin-top:-2px;
+  background-color: white;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #a6683c/*#4CAF50*/;
+}
+input.invalid {
+  background-color: #ffdddd;
+}
+#reg1{
+	position:relative;
+	left:4.6px;
+	 background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width:99%;
+  opacity: 0.9;
+  margin-top:20px;
+}
+#reg1:hover{
+	opacity:1;
+}
+.icon {
+    position:relative;
+    left:4.6px;
+    top:2px;
+      padding-top: 16.5px;
+      padding-bottom:16.5px;
+      padding-left:10px;
+      padding-right:10px;
+      background: black;
+      color: white;
+      min-width: 50px;
+      text-align: center;
+    }
+    .icon2{
+    position:relative;
+    font-size:20px;
+    margin-right:0px;
+    top:0px;
+      padding-top: 5.5px;
+      padding-bottom:5.5px;
+      padding-left:5px;
+      padding-right:5px;
+      color: white;
+      min-width:20px;
+      text-align: center;
+    }
+    .icon1 {
+    position:absolute;
+    font-size:20px;
+    right:4px;
+    top:10px;
+      padding-top: 5.5px;
+      padding-bottom:12.5px;
+      padding-left:5px;
+      padding-right:5px;
+      color: white;
+      min-width: 30px;
+      text-align: center;
+    }

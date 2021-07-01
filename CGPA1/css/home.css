@@ -1,0 +1,199 @@
+body{
+	background-image:url('cgpa.jpeg');
+	background-size:cover;
+}
+fieldset{
+border:none;
+}
+#top{
+position:absolute;
+top:200px;
+left:545px;
+}
+#reg{
+height:50px;
+width:227px;
+background-color:rgba(3,3,3,0.5);
+border:none;
+color:white;
+}
+#log{
+height:50px;
+width:227px;
+background-color:rgba(3,3,3,0.4);
+border:none;
+color:rgba(255,255,255,0.8);
+}
+
+#fr{
+	position:absolute;
+	top:250px;
+	left:545px;
+	background-color:rgba(3,3,3,0.5);
+	padding-bottom:40px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:40px;
+}
+#fr1{
+	position:absolute;
+	top:250px;
+	left:545px;
+	max-width:400px;
+	background-color:rgba(3,3,3,0.5);
+	padding-bottom:40px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:40px;
+  }
+   #fr1 fieldset:not(:first-of-type) {
+    display: none;
+}
+#uid{
+height:50px;
+width:300px;
+margin-top:30px;
+padding:10px;
+}
+#pwd{
+height:50px;
+width:300px;
+margin-top:30px;
+padding:10px;
+}
+#name{
+		height:50px;
+width:300px;
+margin-top:30px;
+padding:10px;
+}
+#dob{
+	height:50px;
+width:300px;
+margin-top:30px;
+padding:10px;
+}
+#mail{
+	height:50px;
+width:300px;
+margin-top:30px;
+padding:10px;
+}
+#ph{
+		height:50px;
+width:300px;
+margin-top:30px;
+padding:10px;
+}
+#npwd{
+		height:50px;
+width:300px;
+margin-top:30px;
+padding:10px;
+}
+#cpwd{
+		height:50px;
+width:300px;
+margin-top:30px;
+padding:10px;
+}
+#lg{
+	position:relative;
+	left:4.6px;
+	 background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width:99%;
+  opacity: 0.9;
+  margin-top:20px;
+}
+#lg:hover{
+	opacity:1;
+}
+.tab {
+  display: none;
+  max-width:375px;
+}
+/*.next-form{
+	position:relative;
+	margin-top:20px;
+	background-color: dodgerblue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width:100px;
+}*/
+#nextBtn{
+	float:right;
+	position:relative;
+	margin-top:20px;
+	background-color: dodgerblue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width:100px;
+}
+#prevBtn {
+  /*float:right;*/
+  background-color:gray;
+  margin-top:20px;
+  margin-right:10px;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width:100px;
+}
+#subBtn{
+	float:right;
+	position:relative;
+	margin-top:20px;
+	background-color: dodgerblue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width:100px;
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin-top:-2px;
+  background-color: white;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+input.invalid {
+  background-color: #ffdddd;
+}
+#reg1{
+	position:relative;
+	left:4.6px;
+	 background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width:99%;
+  opacity: 0.9;
+  margin-top:20px;
+}
+#reg1:hover{
+	opacity:1;
+}

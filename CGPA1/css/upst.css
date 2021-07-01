@@ -1,0 +1,129 @@
+body{
+    overflow-y: hidden;
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: blueviolet; 
+    border-radius: 10px;
+    height:50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
+#selsec{
+    display: inline-flex;
+    position: absolute;
+    top:50px;
+    left:0;
+    z-index: 10;
+}
+#year,#dept1,#section,#op{
+    width:384px;
+    height: 50px;
+    margin-left: 0;
+    z-index: 10;
+}
+#year:disabled,#dept1:disabled,#section:disabled{
+    background-color:rgb(235, 228, 228);
+}
+.table{
+    position:absolute;
+    top: 100px;
+    left:0;
+    width:100%;
+    height:693px;
+    overflow:scroll;
+}
+table{
+    width:100%;
+}
+table,tr,td,th{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    table-layout: auto;
+    text-align: left;
+}
+
+table tr th{
+    border-color:white;
+    background-color: black;
+    color:white;
+    padding: 15px;
+    font-size: 20px;
+   }
+td{
+    width:max-content;
+    background-color: rgba(255,255,255,0.9);
+    height:50px;
+    vertical-align: bottom;
+    padding:10px;
+}
+.elective{
+    min-width: 150px;
+}
+.sem{
+    min-width: 60px;
+}
+#sn{
+    min-width: 120px;
+}
+#roll{
+    min-width: 100px;
+}
+.eelect,.lelect{
+    width: 100%;
+    margin-top: 0px;
+    height: 30px;
+}
+.lelect{
+position:relative;
+top:10px;
+width:50%;
+height: 30px;
+font-size: 1.3em;
+opacity: 0.7;
+    border-color: rgba(118, 118, 118, 0.3);
+background-color:rgb(235, 228, 228);
+}
+.eedit,.eupdate{
+    margin-top: 10px;
+}
+.eedit{
+    background-color: rgb(247, 58, 58);
+    border-color: rgb(247, 58, 58);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.eupdate{
+    background-color: lightgreen;
+    border-color:lightgreen;
+}
+/*th:first-child{
+  width:60px;
+  padding: 15px;  
+}/*
+.elective{
+    padding-right:100px;
+    padding-left:100px;
+}
+.sem{
+    padding-right:30px;
+    padding-left:30px;
+}
+#roll{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+*/

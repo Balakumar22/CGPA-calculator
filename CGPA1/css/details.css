@@ -1,0 +1,140 @@
+#top{
+    background-color:rgba(3, 3, 3,0.8);
+	background-size:cover;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:50px;
+}
+.dropbtn {
+	display:inline-block;
+	position:absolute;
+	left:5px;
+	top:-4px;
+	color: white;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:10px;  
+	font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown{
+	position:absolute;
+height:30px;
+right:0px;
+top:5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top:-5px;
+  right: 0px;
+  background-color: rgba(0,0,0,0.2);/*#f9f9f9;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+#uname{
+	font-size:20px;
+display:inline-block;
+	position:absolute;
+	right:12px;
+	top:-9px;
+	color:white;
+}
+.icon {
+position:relative;
+left:4.6px;
+top:2px;
+  padding-top: 16.5px;
+  padding-bottom:16.5px;
+  padding-left:10px;
+  padding-right:10px;
+  background: #a6683c;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.icon2{
+position:relative;
+font-size:20px;
+margin-right:0px;
+top:0px;
+  padding-top: 5.5px;
+  padding-bottom:5.5px;
+  padding-left:5px;
+  padding-right:5px;
+  color: white;
+  min-width:20px;
+  text-align: center;
+}
+.icon1 {
+position:absolute;
+font-size:20px;
+right:4px;
+top:10px;
+  padding-top: 5.5px;
+  padding-bottom:12.5px;
+  padding-left:5px;
+  padding-right:5px;
+  color: white;
+  min-width: 30px;
+  text-align: center;
+}
+#topcon{
+	position:absolute;
+	top:-8px;
+}
+.top1 li{
+	display:inline-block;
+	position:relative;
+	top:13px;
+	
+}
+.top1 li a i{
+	color:white;
+	position:relative;
+	top:4px;
+	font-size:20px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:10px;
+	text-decoration:none;
+}
+#topcon li :hover{
+	border:0.1 groove;
+	/*border-radius:50%;*/
+	border-color:(0,0,0,0.5);
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:rgba(255,255,255,0.1);
+	/*border-radius:30px;
+	color:black;
+	background-color:lightgreen;*/
+}
+.dropdown:hover{
+	border-color:(0,0,0,0.5);
+	padding-bottom:6px;
+	padding-top:15px;
+	padding-left:5px;
+	padding-right:5px;
+	z-index: 2;
+background-color:rgba(255,255,255,0.1);
+}
+.dropdown-content a:hover {
+	background-color:rgba(3,3,3,0.1); /*#f1f1f1*/
+	}
+.dropdown:hover .dropdown-content {
+  display: block;
+}

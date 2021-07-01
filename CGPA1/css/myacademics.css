@@ -1,0 +1,31 @@
+.bx{
+    position: absolute;
+    top:100px;
+    left:320px;
+}
+.bx1 , .bx2{
+    display:flex;
+    margin-top: 60px;
+}
+#sem1 , #sem2 , #sem3 , #sem4 , #sem5 , #sem6,#sem7,#sem8,#cgpa{
+    width:200px;
+    height:130px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-right: 50px;
+    text-align:center;
+    background-color: rgb(46, 45, 45);
+    color: dodgerblue;/*rgb(123, 166, 247);*/
+}
+#cgpa{
+    position: relative;
+    height:130px;
+    top:550px;
+    left:690px;
+    padding-top: 20px;
+}
+#sem1:hover , #sem2:hover , #sem3:hover , #sem4:hover , #sem5:hover , #sem6:hover,#sem7:hover,#sem8:hover,#cgpa:hover{
+    background-color: black;
+    box-shadow: 0 5px 10px 0 rgba(218,165,32, 0.7), 0 7px 22px 0 rgba(218,165,32, 0.69);
+}
